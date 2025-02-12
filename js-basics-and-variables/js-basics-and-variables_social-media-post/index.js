@@ -10,7 +10,14 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+const postTitle = "Social Media Post";
+const postText = "This is a small social media post.";
+// const postLikesNumber = 10;
+let postLikesNumber = 10; // change const to let (changeable variable), see previous syntax element
+postLikesNumber = postLikesNumber + 1;
+// postLikesNumber += 1; // alternative code to previous syntax element
+const postWriter = "Brigitte";
+const isReported = true; // boolean
 // --^-- write your code here --^--
 
 /*
@@ -18,5 +25,9 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+console.log(postTitle);
+console.log(postText);
+console.log("Number of likes:", postLikesNumber);
+console.log("Author:", postWriter);
+console.log("Reported:", isReported);
 // --^-- write your code here --^--
