@@ -10,6 +10,11 @@ console.clear();
 
 // --v-- write your code here --v--
 
+// const title = "The Lord of the Javascript";
+// const author = "Mario";
+// const rating = "4.2";
+//const sold = "120";
+
 // --^-- write your code here --^--
 
 /*
@@ -28,6 +33,12 @@ Then:
 
 // --v-- write your code here --v--
 
+// const title = "The Lord of the Javascript";
+// const author = "Mario";
+// const rating = "4.3";
+// const sold = "122";
+// console.log(title, author, rating, sold);
+
 // --^-- write your code here --^--
 
 /*
@@ -40,5 +51,21 @@ Then:
 */
 
 // --v-- write your code here --v--
+
+const title = "The Lord of the Javascript";
+const author = "Mario";
+let rating = 4.3;
+let sold = 122;
+
+function logBookData() {
+  console.log(title + ", " + author + ", " + rating + ", " + sold);
+}
+logBookData();
+
+sold = sold + 5;
+logBookData();
+
+sold = sold + 10;
+logBookData();
 
 // --^-- write your code here --^--
