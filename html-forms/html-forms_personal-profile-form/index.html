@@ -9,5 +9,49 @@
     <title>Personal Profile Form</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <h2 id="title">Create your Personal Profile</h2>
+    <form
+      aria-labelledby="title"
+      aria-describedby="description-personal"
+      aria-describedby="description-further"
+    >
+      <p id="description-personal">
+        We want to get to know you! Please enter your personal information.
+      </p>
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="input-firstname">First Name:</label>
+        <input type="text" id="input-firstname" required />
+        <label for="input-lastname">Last Name:</label>
+        <input type="text" id="input-lastname" required />
+        <label for="input-date">Your Birthday:</label>
+        <input type="date" id="input-lastname" required />
+      </fieldset>
+      <p id="description-further">
+        Can you tell us a little bit more? We want to annoy you with unwanted
+        ads.
+      </p>
+      <fieldset>
+        <legend>Further Information</legend>
+
+        <label for="input-favouritecolor">Favourite Color:</label>
+        <input
+          type="color"
+          id="input-favouritecolor"
+          value="#E5430F"
+          required
+        />
+        <label for="input-favouritepet">What's your favourite pet?</label>
+        <select type="text" id="input-favouritepet" required>
+          <option value="">--Please choose an option--</option>
+          <option value="agra">Agra Cadabra</option>
+          <option value="turtle">Chicken Turtle</option>
+          <option value="jellyfish">Fried Egg Jellyfish</option>
+        </select>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
