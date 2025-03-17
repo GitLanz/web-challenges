@@ -14,6 +14,11 @@ const StyledLights = styled.ul`
 export default function Lights() {
   return (
     <StyledLights>
+      {/* {lights.map((light)=>{
+        return(
+
+      );
+      })} */}
       <li>
         <Light name="Living Room" />
       </li>
