@@ -1,3 +1,6 @@
 import { server } from "./server.js";
 
-server.listen(prototype,()=>{console.log(`server is running on port ${port}`)}
+const port = 8000;
+server.listen(port, () => {
+  console.log(`server is running on port ${port}`);
+});
